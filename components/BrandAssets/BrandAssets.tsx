@@ -13,7 +13,7 @@ export const BrandAssets = () => {
       <ContainerExtended>
         <Title>Brand Assets</Title>
         <Subtitle>
-          Download official Quix logos to use on your marketing materials or
+          Download official Svim logos to use on your marketing materials or
           website.
         </Subtitle>
         <a href={`https://${siteConfig.WEBSITE_URL}/Quix_Logos.zip`} download>

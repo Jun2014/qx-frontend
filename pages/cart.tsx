@@ -17,8 +17,8 @@ const CartPage = ({ collectionAddress }) => {
   return (
     <>
       <Head>
-        <title>Cart | Quix</title>
-        <meta property="og:title" content={`Launchpad | Quix`} />
+        <title>Cart | Svim</title>
+        <meta property="og:title" content={`Launchpad | Svim`} />
 
         <meta
           name="description"

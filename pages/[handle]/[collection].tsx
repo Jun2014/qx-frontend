@@ -31,7 +31,7 @@ const ProfilePage = ({ profile, selectedTab }) => {
       {!!profile ? (
         <>
           <Head>
-            <title>{handle} | Quix</title>
+            <title>{handle} | Svim</title>
             <meta property="og:title" content={handle + " | "} />
 
             <meta
@@ -68,8 +68,8 @@ const ProfilePage = ({ profile, selectedTab }) => {
       ) : (
         <>
           <Head>
-            <title>Not Found | Quix</title>
-            <meta property="og:title" content={`Not Found | Quix`} />
+            <title>Not Found | Svim</title>
+            <meta property="og:title" content={`Not Found | Svim`} />
 
             <meta
               name="description"

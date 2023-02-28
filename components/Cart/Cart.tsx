@@ -246,7 +246,7 @@ export const Cart = ({ collectionAddress = null }) => {
       <ContainerBackground>
         <ContainerExtended>
           <Title>
-            {collectionAddress ? <b>Sweep Collection</b> : <b>Quix Cart</b>}
+            {collectionAddress ? <b>Sweep Collection</b> : <b>Svim Cart</b>}
           </Title>
 
           {tokens ? (
@@ -326,7 +326,7 @@ export const Cart = ({ collectionAddress = null }) => {
                                         priority
                                       />
                                     </RewardsBreakdownIcon>
-                                    Quix OP Reward
+                                    Svim OP Reward
                                   </RewardsBreakdownRow>
                                 ) : r[0] == "OPOG" ? (
                                   <RewardsBreakdownRow>
@@ -368,7 +368,7 @@ export const Cart = ({ collectionAddress = null }) => {
                             rewardsTotal > 0 && setRewardsExpanded(true)
                           }
                         >
-                          Earn $OP when buying NFTs on Quix
+                          Earn $OP when buying NFTs on Svim
                           {!!rewardsTotal && rewardsTotal > 0 && (
                             <RewardsDescriptionIcon>
                               <FiChevronRight />

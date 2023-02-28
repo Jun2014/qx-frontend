@@ -18,8 +18,8 @@ const LaunchPage = ({ collections }) => {
   return (
     <>
       <Head>
-        <title>Launch | Quix</title>
-        <meta property="og:title" content={`Launch | Quix`} />
+        <title>Launch | Svim</title>
+        <meta property="og:title" content={`Launch | Svim`} />
 
         <meta
           name="description"

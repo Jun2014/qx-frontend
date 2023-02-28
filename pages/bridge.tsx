@@ -20,8 +20,8 @@ const BridgePage = ({ network, collectionAddress, tokenId }) => {
   return (
     <>
       <Head>
-        <title>Optimism NFT Bridge | Quix</title>
-        <meta property="og:title" content={`Optimism NFT Bridge | Quix`} />
+        <title>Optimism NFT Bridge | Svim</title>
+        <meta property="og:title" content={`Optimism NFT Bridge | Svim`} />
 
         <meta
           name="description"

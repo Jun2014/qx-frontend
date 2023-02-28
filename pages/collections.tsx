@@ -27,8 +27,8 @@ const MyCollectionsPage = () => {
   return (
     <>
       <Head>
-        <title>Collections | Quix</title>
-        <meta property="og:title" content={`Collections | Quix`} />
+        <title>Collections | Svim</title>
+        <meta property="og:title" content={`Collections | Svim`} />
 
         <meta
           name="description"

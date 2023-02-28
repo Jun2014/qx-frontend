@@ -31,10 +31,10 @@ const HomePage = ({ featured, collections }) => {
   return (
     <>
       <Head>
-        <title>Quix, the largest NFT marketplace on Optimism</title>
+        <title>Svim, the largest NFT marketplace on Optimism</title>
         <meta
           property="og:title"
-          content={`Quix, the largest NFT marketplace on Optimism`}
+          content={`Svim, the largest NFT marketplace on Optimism`}
         />
 
         <meta

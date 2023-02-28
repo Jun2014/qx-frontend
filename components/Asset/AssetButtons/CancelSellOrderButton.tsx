@@ -162,7 +162,7 @@ export const CancelSellOrderButton = ({
                 <div>
                   <b>Are you sure you want to cancel this listing?</b>
                 </div>
-                Canceling this listing will remove the sale from Quix and
+                Canceling this listing will remove the sale from Svim and
                 requires a transaction to finalize.
                 <ButtonGrid>
                   <Button className="small outline" onClick={toggleModal}>

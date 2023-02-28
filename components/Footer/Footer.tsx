@@ -23,7 +23,7 @@ export const Footer = () => {
             <FooterSectionGrid className="vertical">
               <Logo>
                 <Link href="/" passHref>
-                  <a>Quix</a>
+                  <a>Svim</a>
                 </Link>
               </Logo>
               <Description>
@@ -57,7 +57,7 @@ export const Footer = () => {
           </FooterRow>
           <Divider />
           <FooterRow className="copyright">
-            © {new Date().getFullYear()} Quix. All rights reserved.
+            © {new Date().getFullYear()} Svim. All rights reserved.
             <FooterSectionGrid>
               <a
                 href="https://help.qx.app"

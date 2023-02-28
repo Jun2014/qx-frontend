@@ -153,7 +153,7 @@ export const CollectionSettings = ({ collection, hostedCollection }) => {
       ) : (
         <>
           <Head>
-            <title>Not Found | Quix</title>
+            <title>Not Found | Svim</title>
             <meta property="og:image" content={`/opt_banner.png`} />
           </Head>
 

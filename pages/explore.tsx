@@ -21,8 +21,8 @@ const ExplorePage = ({ collections }) => {
   return (
     <>
       <Head>
-        <title>Explore NFTs | Quix</title>
-        <meta property="og:title" content={`Explore NFTs | Quix`} />
+        <title>Explore NFTs | Svim</title>
+        <meta property="og:title" content={`Explore NFTs | Svim`} />
 
         <meta
           name="description"

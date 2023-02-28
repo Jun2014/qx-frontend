@@ -6,8 +6,8 @@ const LaunchpadDeployPage = () => {
   return (
     <>
       <Head>
-        <title>Launchpad | Quix</title>
-        <meta property="og:title" content={`Launchpad | Quix`} />
+        <title>Launchpad | Svim</title>
+        <meta property="og:title" content={`Launchpad | Svim`} />
 
         <meta
           name="description"

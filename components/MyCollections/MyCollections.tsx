@@ -41,7 +41,7 @@ export const MyCollections = ({ collections, setCollections }) => {
         <Title>Collections</Title>
         <Subtitle>
           {collectionResults.length > 0 ? (
-            <>Manage your Optimism NFT collections on Quix</>
+            <>Manage your Optimism NFT collections on Svim</>
           ) : (
             <NoItems>
               <p>

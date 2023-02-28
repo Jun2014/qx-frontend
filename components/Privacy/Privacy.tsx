@@ -16,9 +16,9 @@ export const Privacy = () => {
         <Subtitle>Last updated on December 14, 2021</Subtitle>
         <p>
           Thank you for being part of our community at Fanbase Labs, Inc., doing
-          business as Quix (&ldquo;Quix ,&ldquo; &ldquo;we,&ldquo;
+          business as Svim (&ldquo;Svim ,&ldquo; &ldquo;we,&ldquo;
           &ldquo;us,&ldquo; or &ldquo;our&ldquo;). Your privacy is important to
-          us. It is Quix&#39;s policy to respect your privacy and comply with
+          us. It is Svim&#39;s policy to respect your privacy and comply with
           any applicable law and regulation regarding any personal information
           we may collect about you, including across our website,{" "}
           <a href={`https://${siteConfig.WEBSITE_URL}`}>
@@ -295,7 +295,7 @@ export const Privacy = () => {
           us using the following details:
         </p>
         <p>
-          Quix
+          Svim
           <br />
           hi@{siteConfig.WEBSITE_URL}
         </p>

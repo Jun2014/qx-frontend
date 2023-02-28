@@ -33,10 +33,10 @@ const LaunchpadPage = ({ collection, hostedCollection }) => {
       {collection && hostedCollection ? (
         <>
           <Head>
-            <title>{collection.name} | Quix Launchpad</title>
+            <title>{collection.name} | Svim Launchpad</title>
             <meta
               property="og:title"
-              content={`${collection.name} | Quix Launchpad`}
+              content={`${collection.name} | Svim Launchpad`}
             />
 
             <meta
@@ -76,8 +76,8 @@ const LaunchpadPage = ({ collection, hostedCollection }) => {
       ) : (
         <>
           <Head>
-            <title>Not Found | Quix</title>
-            <meta property="og:title" content={`Not Found | Quix`} />
+            <title>Not Found | Svim</title>
+            <meta property="og:title" content={`Not Found | Svim`} />
 
             <meta
               name="description"

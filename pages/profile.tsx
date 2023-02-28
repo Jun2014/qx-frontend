@@ -30,8 +30,8 @@ const ProfilePage = () => {
   return (
     <>
       <Head>
-        <title>My Profile | Quix</title>
-        <meta property="og:title" content={`My Profile | Quix`} />
+        <title>My Profile | Svim</title>
+        <meta property="og:title" content={`My Profile | Svim`} />
 
         <meta
           name="description"

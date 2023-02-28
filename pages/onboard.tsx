@@ -7,10 +7,10 @@ const OptimismPage = () => {
     return (
       <>
         <Head>
-          <title>Mint your free Optimistic Explorer NFT | Quix</title>
+          <title>Mint your free Optimistic Explorer NFT | Svim</title>
           <meta
             property="og:title"
-            content={`Mint your free Optimistic Explorer NFT | Quix`}
+            content={`Mint your free Optimistic Explorer NFT | Svim`}
           />
 
           <meta

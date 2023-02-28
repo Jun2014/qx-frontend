@@ -91,7 +91,7 @@ export const LoginModal = () => {
         {!clickedMetamask ? (
           <>
             <ModalSection>
-              <LargeText>Welcome to Quix</LargeText>
+              <LargeText>Welcome to Svim</LargeText>
               <SmallText>Connect your wallet to get started</SmallText>
             </ModalSection>
 

@@ -65,9 +65,9 @@ export const Launch = ({ collections }) => {
                         />
                       </CardImageContainer>
                       <CardTextContainer>
-                        <CardTitle>Quix Launchpad</CardTitle>
+                        <CardTitle>Svim Launchpad</CardTitle>
                         <CardDescription>
-                          Simple free mints, built into Quix
+                          Simple free mints, built into Svim
                         </CardDescription>
                       </CardTextContainer>
                     </Card>
@@ -405,7 +405,7 @@ export const Launch = ({ collections }) => {
               <SectionTitle>
                 Drops.{" "}
                 <SectionSubtitle>
-                  Recent projects from the Quix launchpad.
+                  Recent projects from the Svim launchpad.
                 </SectionSubtitle>
               </SectionTitle>
               <CollectionsGrid>

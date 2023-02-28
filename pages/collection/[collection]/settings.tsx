@@ -28,10 +28,10 @@ const CollectionSettingsPage = ({ collection, hostedCollection }) => {
       {!!collection ? (
         <>
           <Head>
-            <title>{collection.name} Settings - Quix</title>
+            <title>{collection.name} Settings - Svim</title>
             <meta
               property="og:title"
-              content={collection.name + " Settings - Quix"}
+              content={collection.name + " Settings - Svim"}
             />
 
             <meta
@@ -62,8 +62,8 @@ const CollectionSettingsPage = ({ collection, hostedCollection }) => {
       ) : (
         <>
           <Head>
-            <title>Not Found | Quix</title>
-            <meta property="og:title" content={`Not Found | Quix`} />
+            <title>Not Found | Svim</title>
+            <meta property="og:title" content={`Not Found | Svim`} />
 
             <meta
               name="description"

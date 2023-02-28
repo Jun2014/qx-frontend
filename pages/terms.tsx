@@ -6,8 +6,8 @@ const TermsPage = () => {
   return (
     <>
       <Head>
-        <title>Terms of Use | Quix</title>
-        <meta property="og:title" content={`Terms of Use | Quix`} />
+        <title>Terms of Use | Svim</title>
+        <meta property="og:title" content={`Terms of Use | Svim`} />
 
         <meta
           name="description"

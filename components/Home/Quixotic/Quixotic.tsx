@@ -25,7 +25,7 @@ export const Quixotic = () => {
             <AboutTitle>
               This is
               <br />
-              <span className="large">Quix</span>
+              <span className="large">Svim</span>
             </AboutTitle>
             <AboutDescription>Built for layer 2</AboutDescription>
           </AboutTitleGrid>
@@ -36,7 +36,7 @@ export const Quixotic = () => {
               </ItemIcon>
               <ItemTitle>Scalable</ItemTitle>
               <ItemDescription>
-                Experience the next chapter of Ethereum on Quix, the largest NFT
+                Experience the next chapter of Ethereum on Svim, the largest NFT
                 marketplace on Optimism
               </ItemDescription>
             </AboutItem>

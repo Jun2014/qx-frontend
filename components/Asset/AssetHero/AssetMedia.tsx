@@ -72,7 +72,7 @@ export const AssetMedia = ({ token, lightboxIsOpen, setLightboxIsOpen }) => {
               className="tooltip"
               backgroundColor="#1C1C1D"
             >
-              <b>Quix Rarity Rank</b>
+              <b>Svim Rarity Rank</b>
             </ReactTooltip>
           </>
         )}

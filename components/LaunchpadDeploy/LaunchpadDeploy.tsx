@@ -108,10 +108,10 @@ export const LaunchpadDeploy = () => {
     <ContainerExtended>
       <Editor>
         <EditorTitleContainer>
-          <EditorTitle>Quix Launchpad</EditorTitle>
+          <EditorTitle>Svim Launchpad</EditorTitle>
           <EditorDescription>
             Deploy your own ERC-721 smart contract and manage collection
-            settings, minting, metadata, and allowlist on Quix.
+            settings, minting, metadata, and allowlist on Svim.
             <br />
             <br />
             Launchpad collections must use completely original artwork.
@@ -200,7 +200,7 @@ export const LaunchpadDeploy = () => {
             />
           </EditorRowLabel>
           <EditorRowDescription>
-            Quix Launchpad currently only supports free-to-mint projects
+            Svim Launchpad currently only supports free-to-mint projects
           </EditorRowDescription>
 
           {!freeMint && (

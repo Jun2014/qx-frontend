@@ -46,7 +46,7 @@ export const Collections = ({ profile, collections, setCollections }) => {
         <Title>{handle} Collections</Title>
         <Subtitle>
           {collectionResults.length > 0 ? (
-            <>Explore NFT collections by {handle} on Quix</>
+            <>Explore NFT collections by {handle} on Svim</>
           ) : (
             <>No collections found</>
           )}

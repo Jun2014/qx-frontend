@@ -38,10 +38,10 @@ const CollectionsPage = ({ profile, profileCollections }) => {
       {profile && collections ? (
         <>
           <Head>
-            <title>Explore {handle} Collections - Quix</title>
+            <title>Explore {handle} Collections - Svim</title>
             <meta
               property="og:title"
-              content={`Explore ${handle} Collections | Quix`}
+              content={`Explore ${handle} Collections | Svim`}
             />
 
             <meta
@@ -72,8 +72,8 @@ const CollectionsPage = ({ profile, profileCollections }) => {
       ) : (
         <>
           <Head>
-            <title>Not Found | Quix</title>
-            <meta property="og:title" content={`Not Found | Quix`} />
+            <title>Not Found | Svim</title>
+            <meta property="og:title" content={`Not Found | Svim`} />
 
             <meta
               name="description"

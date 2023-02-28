@@ -124,7 +124,7 @@ export const RabbitHole = () => {
             <TitleGrid>
               <Title>Mint your free RabbitHole L2 Explorer NFT</Title>
               <Subtitle>
-                Let&apos;s mint your RabbitHole L2 Explorer NFT on Quix to get
+                Let&apos;s mint your RabbitHole L2 Explorer NFT on Svim to get
                 your RabbitHole L2 Credential! Each NFT represents 1 of 3 skills
                 you&apos;re most interested in: NFTs, DeFi, or DAOs (or the
                 character you like best).

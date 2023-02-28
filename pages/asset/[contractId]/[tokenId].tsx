@@ -41,8 +41,8 @@ const AssetPage = ({ tokenParam }) => {
       {!!token ? (
         <>
           <Head>
-            <title>{token.name} | Quix</title>
-            <meta property="og:title" content={token.name + " - Quix"} />
+            <title>{token.name} | Svim</title>
+            <meta property="og:title" content={token.name + " - Svim"} />
 
             {token.description ? (
               <>
@@ -99,8 +99,8 @@ const AssetPage = ({ tokenParam }) => {
       ) : (
         <>
           <Head>
-            <title>Not Found | Quix</title>
-            <meta property="og:title" content={`Not Found | Quix`} />
+            <title>Not Found | Svim</title>
+            <meta property="og:title" content={`Not Found | Svim`} />
 
             <meta
               name="description"

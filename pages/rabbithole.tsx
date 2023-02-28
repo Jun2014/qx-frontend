@@ -7,10 +7,10 @@ const RabbitHolePage = () => {
     return (
       <>
         <Head>
-          <title>Mint your free RabbitHole L2 Explorer NFT | Quix</title>
+          <title>Mint your free RabbitHole L2 Explorer NFT | Svim</title>
           <meta
             property="og:title"
-            content={`Mint your free RabbitHole L2 Explorer NFT | Quix`}
+            content={`Mint your free RabbitHole L2 Explorer NFT | Svim`}
           />
 
           <meta

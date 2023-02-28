@@ -20,8 +20,8 @@ const SearchPage = ({ query, collections, profiles, tokens }) => {
   return (
     <>
       <Head>
-        <title>Search | Quix</title>
-        <meta property="og:title" content={`Search | Quix`} />
+        <title>Search | Svim</title>
+        <meta property="og:title" content={`Search | Svim`} />
 
         <meta
           name="description"

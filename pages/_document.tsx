@@ -43,7 +43,7 @@ export default class MainDocument extends Document {
       <Html style={{ scrollBehavior: "smooth" }}>
         <Head>
           {/*OpenGraph Metatags*/}
-          <meta property="og:site_name" content="Quix" />
+          <meta property="og:site_name" content="Svim" />
           <meta
             property="og:url"
             content={`https://${siteConfig.WEBSITE_URL}`}

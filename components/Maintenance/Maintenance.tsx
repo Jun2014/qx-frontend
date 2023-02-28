@@ -26,7 +26,7 @@ export const Maintenance = () => {
         </ImageContainer>
         <Title>Maintenance Mode</Title>
         <Subtitle>
-          Quix is currently undergoing maintenance. During this time our
+          Svim is currently undergoing maintenance. During this time our
           marketplace will be temporarily unavailable. We apologize for the
           inconvenience.
         </Subtitle>

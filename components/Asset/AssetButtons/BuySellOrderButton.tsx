@@ -393,7 +393,7 @@ export const BuySellOrderButton = ({
                                   priority
                                 />
                               </RewardsBreakdownIcon>
-                              Quix OP Reward
+                              Svim OP Reward
                             </RewardsBreakdownRow>
                           ) : r[0] == "OPOG" ? (
                             <RewardsBreakdownRow>
@@ -433,7 +433,7 @@ export const BuySellOrderButton = ({
                     className={rewardsTotal > 0 ? "link" : null}
                     onClick={() => rewardsTotal > 0 && setRewardsExpanded(true)}
                   >
-                    Earn $OP when buying NFTs on Quix
+                    Earn $OP when buying NFTs on Svim
                     {!!rewardsTotal && rewardsTotal > 0 && (
                       <RewardsDescriptionIcon>
                         <FiChevronRight />

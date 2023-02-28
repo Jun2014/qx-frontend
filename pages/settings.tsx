@@ -32,8 +32,8 @@ const SettingsPage = () => {
   return (
     <>
       <Head>
-        <title>Settings | Quix</title>
-        <meta property="og:title" content={`Settings | Quix`} />
+        <title>Settings | Svim</title>
+        <meta property="og:title" content={`Settings | Svim`} />
 
         <meta
           name="description"

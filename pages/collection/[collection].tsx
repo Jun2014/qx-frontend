@@ -113,8 +113,8 @@ const CollectionPage = ({
       {!!collection ? (
         <>
           <Head>
-            <title>{collection.name} | Quix</title>
-            <meta property="og:title" content={collection.name + " | Quix"} />
+            <title>{collection.name} | Svim</title>
+            <meta property="og:title" content={collection.name + " | Svim"} />
 
             {collection.description ? (
               <>
@@ -180,8 +180,8 @@ const CollectionPage = ({
       ) : (
         <>
           <Head>
-            <title>Not Found | Quix</title>
-            <meta property="og:title" content={`Not Found | Quix`} />
+            <title>Not Found | Svim</title>
+            <meta property="og:title" content={`Not Found | Svim`} />
 
             <meta
               name="description"

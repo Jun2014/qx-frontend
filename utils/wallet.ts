@@ -106,7 +106,7 @@ export const connectWalletConnect = async (dispatch) => {
 };
 
 export const connectCoinbaseWallet = async (dispatch) => {
-  const APP_NAME = "Quix";
+  const APP_NAME = "Svim";
   // const APP_LOGO_URL = "https://example.com/logo.png";
   const DEFAULT_ETH_JSONRPC_URL = siteConfig.RPC_URL;
   const DEFAULT_CHAIN_ID = parseInt(siteConfig.CHAIN_ID, 16);

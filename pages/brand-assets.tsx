@@ -6,8 +6,8 @@ const BrandAssetsPage = () => {
   return (
     <>
       <Head>
-        <title>Brand Assets | Quix</title>
-        <meta property="og:title" content={`Brand Assets | Quix`} />
+        <title>Brand Assets | Svim</title>
+        <meta property="og:title" content={`Brand Assets | Svim`} />
 
         <meta
           name="description"

@@ -23,8 +23,8 @@ const StatsPage = ({ collectionsRes }) => {
   return (
     <>
       <Head>
-        <title>Trending Collections | Quix</title>
-        <meta property="og:title" content={`Trending Collections | Quix`} />
+        <title>Trending Collections | Svim</title>
+        <meta property="og:title" content={`Trending Collections | Svim`} />
 
         <meta
           name="description"

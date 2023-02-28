@@ -18,7 +18,7 @@ export const Terms = () => {
             {siteConfig.WEBSITE_URL}
           </a>
           and any related services provided by Fanbase Labs, Inc., doing
-          business as Quix (&ldquo;Quix ,&ldquo; &ldquo;we,&ldquo;
+          business as Svim (&ldquo;Svim ,&ldquo; &ldquo;we,&ldquo;
           &ldquo;us,&ldquo; or &ldquo;our&ldquo;).
         </p>
         <p>
@@ -29,10 +29,10 @@ export const Terms = () => {
           , you agree to abide by these Terms of Service and to comply with all
           applicable laws and regulations. If you do not agree with these Terms
           of Service, you are prohibited from using or accessing this website or
-          using any other services provided by Quix.
+          using any other services provided by Svim.
         </p>
         <p>
-          We, Quix, reserve the right to review and amend any of these Terms of
+          We, Svim, reserve the right to review and amend any of these Terms of
           Service at our sole discretion. Upon doing so, we will update this
           page. Any changes to these Terms of Service will take effect
           immediately from the date of publication.
@@ -59,7 +59,7 @@ export const Terms = () => {
           <li>
             knowingly or negligently use this website or any of its associated
             services in a way that abuses or disrupts our networks or any other
-            service Quix provides;
+            service Svim provides;
           </li>
           <li>
             use this website or its associated services to transmit or publish
@@ -85,14 +85,14 @@ export const Terms = () => {
         <h3>Intellectual Property</h3>
         <p>
           The intellectual property in the materials contained in this website
-          are owned by or licensed to Quix and are protected by applicable
+          are owned by or licensed to Svim and are protected by applicable
           copyright and trademark law. We grant our users permission to download
           one copy of the materials for personal, non-commercial transitory use.
         </p>
         <p>
           This constitutes the grant of a license, not a transfer of title. This
           license shall automatically terminate if you violate any of these
-          restrictions or the Terms of Service, and may be terminated by Quix at
+          restrictions or the Terms of Service, and may be terminated by Svim at
           any time.
         </p>
         <h3>User-Generated Content</h3>
@@ -121,7 +121,7 @@ export const Terms = () => {
         <h3>Liability</h3>
         <p>
           Our website and the materials on our website are provided on an
-          &lsquo;as is&lsquo; basis. To the extent permitted by law, Quix makes
+          &lsquo;as is&lsquo; basis. To the extent permitted by law, Svim makes
           no warranties, expressed or implied, and hereby disclaims and negates
           all other warranties including, without limitation, implied warranties
           or conditions of merchantability, fitness for a particular purpose, or
@@ -129,10 +129,10 @@ export const Terms = () => {
           rights.
         </p>
         <p>
-          In no event shall Quix or its suppliers be liable for any
+          In no event shall Svim or its suppliers be liable for any
           consequential loss suffered or incurred by you or any third party
           arising from the use or inability to use this website or the materials
-          on this website, even if Quix or an authorized representative has been
+          on this website, even if Svim or an authorized representative has been
           notified, orally or in writing, of the possibility of such damage.
         </p>
         <p>
@@ -152,17 +152,17 @@ export const Terms = () => {
         <h3>Accuracy of Materials</h3>
         <p>
           The materials appearing on our website are not comprehensive and are
-          for general information purposes only. Quix does not warrant or make
+          for general information purposes only. Svim does not warrant or make
           any representations concerning the accuracy, likely results, or
           reliability of the use of the materials on this website, or otherwise
           relating to such materials or on any resources linked to this website.
         </p>
         <h3>Links</h3>
         <p>
-          Quix has not reviewed all of the sites linked to its website and is
+          Svim has not reviewed all of the sites linked to its website and is
           not responsible for the contents of any such linked site. The
           inclusion of any link does not imply endorsement, approval, or control
-          by Quix of the site. Use of any such linked site is at your own risk
+          by Svim of the site. Use of any such linked site is at your own risk
           and we strongly advise you make your own investigations with respect
           to the suitability of those sites.
         </p>

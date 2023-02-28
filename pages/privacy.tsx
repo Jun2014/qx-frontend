@@ -6,8 +6,8 @@ const PrivacyPage = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy | Quix</title>
-        <meta property="og:title" content={`Privacy Policy | Quix`} />
+        <title>Privacy Policy | Svim</title>
+        <meta property="og:title" content={`Privacy Policy | Svim`} />
 
         <meta
           name="description"
