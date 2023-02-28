@@ -32,7 +32,7 @@ export const siteConfig =
         L1_BRIDGE_ADDRESS: "0x8DD330DdE8D9898d43b4dc840Da27A07dF91b3c9",
         L2_BRIDGE_ADDRESS: "0x4200000000000000000000000000000000000014",
         LOGO_BADGE: "Goerli",
-        BACKEND_URL: "",
-        BACKEND_TOKEN: "",
+        BACKEND_URL: "https://quixotic-opt-goerli.herokuapp.com",
+        BACKEND_TOKEN: "48ebc02974ca91ae47482665b3be56f38eab71c9",
       }
     : {};
