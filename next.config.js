@@ -28,6 +28,7 @@ module.exports = {
       "arweave.net",
       "fanbase-4.s3.amazonaws.com",
       "quixotic.infura-ipfs.io",
+      "fanbase-1.s3.amazonaws.com"
     ],
   },
   reactStrictMode: true,
