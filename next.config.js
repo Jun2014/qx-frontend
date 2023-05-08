@@ -26,6 +26,7 @@ module.exports = {
       "cloudflare-ipfs.com",
       "gateway.pinata.cloud",
       "arweave.net",
+      "fanbase-1.s3.amazonaws.com"
     ],
   },
   reactStrictMode: true,
