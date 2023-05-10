@@ -5,7 +5,7 @@ import { BsStars } from "react-icons/bs";
 import { FaEthereum } from "react-icons/fa";
 import { MdChevronLeft, MdVerified } from "react-icons/md";
 import ReactMarkdown from "react-markdown";
-import { usePalette } from "react-palette";
+import { useColor } from "color-thief-react";
 import ReactTooltip from "react-tooltip";
 import { siteConfig } from "../../shared/config";
 import { CollectionImage } from "../Common/Images/CollectionImage";
@@ -32,7 +32,7 @@ export const CollectionCardLarge = ({
   settingsLink = false,
   launchpadLink = false,
 }) => {
-  const { data } = usePalette(collection.image_url);
+  const { data } = useColor(collection.image_url, "hex");
 
   return (
     <Link
@@ -55,7 +55,7 @@ export const CollectionCardLarge = ({
         <Card>
           <CollectionCoverImage
             color={
-              data.vibrant && !collection.cover_image ? data.vibrant : "#bbbbbb"
+              data && !collection.cover_image ? data : "#bbbbbb"
             }
             className={collection.cover_image ? "fullOpacity" : null}
           >

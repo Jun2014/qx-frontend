@@ -15,7 +15,7 @@ import { FiEdit } from "react-icons/fi";
 import { IoGrid } from "react-icons/io5";
 import { MdAdd, MdContentCopy, MdOutlineFeaturedVideo } from "react-icons/md";
 import { RiCheckboxCircleFill } from "react-icons/ri";
-import { usePalette } from "react-palette";
+import { useColor } from "color-thief-react";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { updateProfileFollow } from "../../api/discover";
@@ -73,7 +73,7 @@ export const Profile = ({ profile, tab }) => {
   const username =
     profile.username || profile.reverse_ens || profile.address.slice(0, 6);
 
-  const { data } = usePalette(profile.profile_image);
+  const { data } = useColor(profile.profile_image, "hex");
 
   const [selectedTab, setSelectedTab] = useState(tab);
   const [paramsLoaded, setParamsLoaded] = useState(false);
@@ -478,7 +478,7 @@ export const Profile = ({ profile, tab }) => {
     <ContainerBackground>
       <ProfileCoverImage
         color={
-          data.lightMuted && !profile.cover_image ? data.lightMuted : "#bbbbbb"
+          data && !profile.cover_image ? data : "#bbbbbb"
         }
         className={profile.cover_image ? "fullOpacity" : null}
       >

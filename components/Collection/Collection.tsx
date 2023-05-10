@@ -18,7 +18,7 @@ import { MdAdd, MdClose, MdVerified } from "react-icons/md";
 import { RiErrorWarningFill } from "react-icons/ri";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ReactMarkdown from "react-markdown";
-import { usePalette } from "react-palette";
+import { useColor } from "color-thief-react";
 import { useDispatch, useSelector } from "react-redux";
 import ReactTooltip from "react-tooltip";
 import { ModalProvider } from "styled-react-modal";
@@ -113,7 +113,7 @@ export const Collection = ({
   const current_user = useSelector((state: State) => state.profile);
   const gridLayout = useSelector((state: State) => state.gridLayout);
 
-  const { data } = usePalette(collection.image_url);
+  const { data } = useColor(collection.image_url, "hex");
 
   const [stats, setStats] = useState([]);
   const [chartHistory, setChartHistory] = useState("60");
@@ -341,7 +341,7 @@ export const Collection = ({
         {!collection.delisted && !collection.is_spam && (
           <CollectionCoverImage
             color={
-              data.vibrant && !collection.cover_image ? data.vibrant : "#bbbbbb"
+              data && !collection.cover_image ? data : "#bbbbbb"
             }
             className={collection.cover_image ? "fullOpacity" : null}
           >
