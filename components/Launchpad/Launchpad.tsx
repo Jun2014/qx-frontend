@@ -14,7 +14,7 @@ import {
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import { usePalette } from "react-palette";
+import { useColor } from "color-thief-react";
 import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { ModalProvider } from "styled-react-modal";
@@ -75,7 +75,7 @@ import {
 
 export const Launchpad = ({ collection, hostedCollection }) => {
   const address = useSelector((state: State) => state.address);
-  const { data } = usePalette(collection.image_url);
+  const { data } = useColor(collection.image_url, "hex");
 
   const [step, setStep] = useState(0);
   const [txHash, setTxHash] = useState("");
@@ -325,7 +325,7 @@ export const Launchpad = ({ collection, hostedCollection }) => {
                   <a>
                     <Button
                       className="outline"
-                      color={data.lightVibrant ? data.lightVibrant : null}
+                      color={data ? data : null}
                     >
                       View Collection
                     </Button>
@@ -350,14 +350,14 @@ export const Launchpad = ({ collection, hostedCollection }) => {
                 </MintProgressText>
 
                 <PercentMinted
-                  color={data.lightVibrant ? data.lightVibrant : null}
+                  color={data ? data : null}
                 >
                   <PercentMintedFilled
                     percentFilled={
                       (collection.supply / hostedCollection.max_supply) * 100 +
                       "%"
                     }
-                    color={data.lightVibrant ? data.lightVibrant : null}
+                    color={data ? data : null}
                   ></PercentMintedFilled>
                 </PercentMinted>
               </MintProgress>
@@ -375,7 +375,7 @@ export const Launchpad = ({ collection, hostedCollection }) => {
                           ? "active"
                           : null
                       }
-                      color={data.lightVibrant ? data.lightVibrant : null}
+                      color={data ? data : null}
                     >
                       {hostedCollection.premint_enabled &&
                       !hostedCollection.mint_enabled
@@ -433,7 +433,7 @@ export const Launchpad = ({ collection, hostedCollection }) => {
                   Public mint
                   <SectionTitleBadge
                     className={hostedCollection.mint_enabled ? "active" : null}
-                    color={data.lightVibrant ? data.lightVibrant : null}
+                    color={data ? data : null}
                   >
                     {hostedCollection.mint_enabled ? "Active" : "Inactive"}
                   </SectionTitleBadge>

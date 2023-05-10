@@ -32,7 +32,7 @@
     "react-infinite-scroll-component": "^6.1.0",
     "react-markdown": "^7.1.1",
     "react-multi-carousel": "^2.8.2",
-    "react-palette": "^1.0.2",
+    "color-thief-react": "^2.1.0",
     "react-papaparse": "^4.0.2",
     "react-player": "^2.9.0",
     "react-redux": "^7.2.6",
